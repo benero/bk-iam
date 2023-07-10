@@ -13,8 +13,8 @@ package open
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/common"
-	"iam/pkg/api/open/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/open/handler"
 )
 
 // RegisterLegacySystemAPIs the urls: /api/v1/systems

@@ -17,11 +17,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/pdp/condition"
-	"iam/pkg/abac/pdp/condition/operator"
-	"iam/pkg/abac/pdp/evalctx"
-	"iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 // NOTE: 目前所有的 query/eval都在这个文件中, 两个主要入口:

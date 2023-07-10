@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/gin-gonic/gin"
 	. "github.com/onsi/ginkgo/v2"

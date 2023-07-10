@@ -16,8 +16,8 @@ import (
 	"github.com/TencentBlueKing/gopkg/conv"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/service"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // ListModelChangeEvent 查询变更事件列表

@@ -13,9 +13,9 @@ package web
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/common"
-	modelHandler "iam/pkg/api/model/handler"
-	"iam/pkg/api/web/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	modelHandler "github.com/TencentBlueKing/bk-iam/pkg/api/model/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/web/handler"
 )
 
 // Register ...

@@ -16,8 +16,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/parnurzeal/gorequest"
 
-	"iam/pkg/config"
-	"iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
 )
 
 var _ = Describe("Init", func() {

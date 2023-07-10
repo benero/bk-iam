@@ -14,8 +14,8 @@ import (
 	"errors"
 	"fmt"
 
-	"iam/pkg/service"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // AllSystems ...

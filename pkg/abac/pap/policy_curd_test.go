@@ -13,12 +13,12 @@ package pap
 import (
 	"errors"
 
-	eventmock "iam/pkg/abac/pap/event/mock"
-	"iam/pkg/abac/prp/policy"
-	"iam/pkg/abac/prp/temporary"
-	"iam/pkg/abac/types"
-	"iam/pkg/service/mock"
-	svctypes "iam/pkg/service/types"
+	eventmock "github.com/TencentBlueKing/bk-iam/pkg/abac/pap/event/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/temporary"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/golang/mock/gomock"

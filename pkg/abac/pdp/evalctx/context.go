@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"iam/pkg/abac/pdp/condition"
-	pdptypes "iam/pkg/abac/pdp/types"
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	pdptypes "github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
 )
 
 /*

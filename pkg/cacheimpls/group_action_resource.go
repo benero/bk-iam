@@ -17,7 +17,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/cache"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 // GroupActionCacheKey ...

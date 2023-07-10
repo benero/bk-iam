@@ -13,7 +13,7 @@ package debug
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/debug/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/debug/handler"
 )
 
 // Register ...

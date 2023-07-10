@@ -14,7 +14,7 @@ import (
 	"errors"
 	"testing"
 
-	"iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 
 	"github.com/stretchr/testify/assert"
 )

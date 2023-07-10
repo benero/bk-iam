@@ -17,14 +17,14 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/abac/pdp"
-	"iam/pkg/abac/pdp/evalctx"
-	"iam/pkg/abac/pdp/evaluation"
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/logging/debug"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evaluation"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // Auth godoc

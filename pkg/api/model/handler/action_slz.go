@@ -16,9 +16,9 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/gin-gonic/gin/binding"
 
-	"iam/pkg/api/common"
-	"iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 type relatedResourceType struct {

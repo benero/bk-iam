@@ -11,8 +11,8 @@
 package types
 
 import (
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
 )
 
 /*

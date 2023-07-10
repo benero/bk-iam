@@ -16,10 +16,10 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/abac/pap"
-	"iam/pkg/abac/types"
-	"iam/pkg/service"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // CreateTemporaryPolicies godoc

@@ -13,7 +13,7 @@ package database
 import (
 	"sync"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 
 	"github.com/dlmiddlecote/sqlstats"
 	"github.com/jmoiron/sqlx"

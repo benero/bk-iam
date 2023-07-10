@@ -18,9 +18,9 @@ import (
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"
 
-	"iam/pkg/database/dao"
-	"iam/pkg/database/dao/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 var _ = Describe("ActionService", func() {

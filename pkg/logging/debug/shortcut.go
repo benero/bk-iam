@@ -10,7 +10,7 @@
 
 package debug
 
-import "iam/pkg/abac/types"
+import "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 
 // WithValue ...
 func WithValue(e *Entry, key string, value interface{}) {

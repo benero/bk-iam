@@ -13,7 +13,7 @@ package pip
 import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 // ResourcePIP ...

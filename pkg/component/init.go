@@ -20,9 +20,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"moul.io/http2curl"
 
-	"iam/pkg/logging"
-	"iam/pkg/metric"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/metric"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const (

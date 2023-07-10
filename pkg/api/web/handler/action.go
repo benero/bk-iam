@@ -15,9 +15,9 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // GetAction 获取操作资源类型信息

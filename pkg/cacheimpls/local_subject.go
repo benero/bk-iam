@@ -15,8 +15,8 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/cache"
 
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 func retrieveSubject(key cache.Key) (interface{}, error) {

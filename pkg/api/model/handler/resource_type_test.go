@@ -19,10 +19,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 var _ = Describe("ResourceType", func() {

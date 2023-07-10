@@ -13,7 +13,7 @@ package stats
 import (
 	"time"
 
-	"iam/pkg/metric"
+	"github.com/TencentBlueKing/bk-iam/pkg/metric"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"

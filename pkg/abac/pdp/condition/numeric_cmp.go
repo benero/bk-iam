@@ -15,8 +15,8 @@ import (
 
 	"github.com/TencentBlueKing/iam-go-sdk/expression/eval"
 
-	"iam/pkg/abac/pdp/condition/operator"
-	"iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
 )
 
 type numericCompareFunc func(interface{}, interface{}) bool

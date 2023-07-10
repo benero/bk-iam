@@ -15,8 +15,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/common"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 func validateDeleteViaID(c *gin.Context) ([]string, error) {

@@ -10,7 +10,7 @@
 
 package handler
 
-import "iam/pkg/abac/prp"
+import "github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
 
 type subjectsSerializer struct {
 	IDs string `form:"ids" binding:"required" example:"1,2,3"`

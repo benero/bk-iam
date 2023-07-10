@@ -11,8 +11,8 @@
 package model
 
 import (
-	"iam/pkg/api/common"
-	"iam/pkg/api/model/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/model/handler"
 
 	"github.com/gin-gonic/gin"
 )

@@ -13,8 +13,8 @@ package pap
 import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock

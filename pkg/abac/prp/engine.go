@@ -18,12 +18,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/pdp/translate"
-	abactypes "iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/translate"
+	abactypes "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // policy for engine will put here

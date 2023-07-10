@@ -16,15 +16,15 @@ import (
 	"testing"
 	"time"
 
-	"iam/pkg/abac/pdp/condition"
-	pdptypes "iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	pdptypes "github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
 
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
 )
 
 var _ = Describe("Context", func() {

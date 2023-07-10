@@ -16,7 +16,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 var (

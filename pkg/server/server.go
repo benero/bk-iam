@@ -18,8 +18,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/config"
-	"iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
 )
 
 const (

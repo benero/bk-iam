@@ -21,7 +21,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/parnurzeal/gorequest"
 
-	"iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
 )
 
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock

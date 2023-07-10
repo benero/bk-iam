@@ -17,8 +17,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database/dao"
-	"iam/pkg/database/dao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao/mock"
 )
 
 var _ = Describe("OpenAbacPolicyService", func() {

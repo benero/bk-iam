@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
 )
 
 var _ = Describe("PolicyCondition", func() {

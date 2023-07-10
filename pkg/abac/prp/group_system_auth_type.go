@@ -11,8 +11,8 @@
 package prp
 
 import (
-	"iam/pkg/abac/prp/group"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/group"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // SplitGroupPKsByAuthType 将传入的system groupPKs拆分成ABAC和RBAC groupPKs

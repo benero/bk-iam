@@ -20,9 +20,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 
-	pkgredis "iam/pkg/cache/redis"
-	"iam/pkg/config"
-	"iam/pkg/database"
+	pkgredis "github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 func checkDatabase(dbConfig *config.Database) error {

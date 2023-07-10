@@ -16,12 +16,12 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/abac/pdp"
-	"iam/pkg/abac/types/request"
-	modelHandler "iam/pkg/api/model/handler"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/logging/debug"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	modelHandler "github.com/TencentBlueKing/bk-iam/pkg/api/model/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // QueryModel ...

@@ -18,9 +18,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
 )
 
 func TestSubjectIDCacheKey_Key(t *testing.T) {

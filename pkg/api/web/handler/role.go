@@ -15,8 +15,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/copier"
 
-	"iam/pkg/abac/pap"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // BatchAddRoleSubject ...

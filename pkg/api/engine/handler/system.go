@@ -13,8 +13,8 @@ package handler
 import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/service"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/gin-gonic/gin"
 )

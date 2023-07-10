@@ -13,9 +13,9 @@ package pap
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock
 
 import (
-	"iam/pkg/abac/pap/event"
-	"iam/pkg/abac/types"
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap/event"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 // PolicyCTL ...

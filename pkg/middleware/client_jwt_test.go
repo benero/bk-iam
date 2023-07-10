@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 var _ = Describe("client_jwt", func() {

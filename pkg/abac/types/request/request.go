@@ -13,7 +13,7 @@ package request
 import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 
-	"iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 )
 
 /*

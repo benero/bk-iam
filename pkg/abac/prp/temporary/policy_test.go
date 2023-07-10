@@ -14,10 +14,10 @@ import (
 	"errors"
 	"time"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 	red "github.com/go-redis/redis/v8"
 	"github.com/golang/mock/gomock"

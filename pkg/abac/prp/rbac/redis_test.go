@@ -19,12 +19,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/abac/prp/rbac/convert"
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service/mock"
-	"iam/pkg/service/types"
-	producermock "iam/pkg/task/producer/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/rbac/convert"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	producermock "github.com/TencentBlueKing/bk-iam/pkg/task/producer/mock"
 )
 
 var _ = Describe("RbacPolicy", func() {

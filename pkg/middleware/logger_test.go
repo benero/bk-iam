@@ -18,9 +18,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/config"
-	"iam/pkg/logging"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 func TestAPILogger(t *testing.T) {

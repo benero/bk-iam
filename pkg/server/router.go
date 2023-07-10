@@ -13,15 +13,15 @@ package server
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/basic"
-	"iam/pkg/api/debug"
-	"iam/pkg/api/engine"
-	"iam/pkg/api/model"
-	"iam/pkg/api/open"
-	"iam/pkg/api/policy"
-	"iam/pkg/api/web"
-	"iam/pkg/config"
-	"iam/pkg/middleware"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/basic"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/engine"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/model"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/open"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/web"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/middleware"
 )
 
 // NewRouterFunc ...

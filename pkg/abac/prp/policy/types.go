@@ -10,7 +10,7 @@
 
 package policy
 
-import "iam/pkg/service/types"
+import "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 // Retriever define the interface of data retrieve for each layer: memory -> redis -> database
 type Retriever interface {

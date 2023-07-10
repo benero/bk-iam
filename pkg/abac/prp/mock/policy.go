@@ -5,9 +5,9 @@
 package mock
 
 import (
-	types "iam/pkg/abac/types"
-	debug "iam/pkg/logging/debug"
-	types0 "iam/pkg/service/types"
+	types "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	debug "github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	types0 "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

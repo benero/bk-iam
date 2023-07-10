@@ -13,7 +13,7 @@ package types
 import (
 	"fmt"
 
-	"iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
 )
 
 /*

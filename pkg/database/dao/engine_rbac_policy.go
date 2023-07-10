@@ -19,7 +19,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 // NOTE: this is a proxy of table rbac_group_resource_policy

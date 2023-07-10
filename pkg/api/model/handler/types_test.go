@@ -14,7 +14,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/api/model/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/model/handler"
 )
 
 var _ = Describe("Types", func() {

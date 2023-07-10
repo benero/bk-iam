@@ -14,9 +14,9 @@ import (
 	"errors"
 	"fmt"
 
-	"iam/pkg/api/common"
-	"iam/pkg/service"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // 需要db操作的校验, 统一叫 checkXXXX

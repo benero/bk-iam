@@ -17,8 +17,8 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/collection/set"
 
-	"iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 // ParseResourceNode 解析资源节点并去重

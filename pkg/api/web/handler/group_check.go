@@ -16,10 +16,10 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/pap"
-	"iam/pkg/api/common"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 var errQuota = errors.New("quota error")

@@ -11,7 +11,7 @@
 package condition
 
 import (
-	"iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
 )
 
 type baseCondition struct {

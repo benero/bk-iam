@@ -18,9 +18,9 @@ import (
 	"github.com/TencentBlueKing/gopkg/stringx"
 	"github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/pdp/condition"
-	"iam/pkg/abac/pdp/translate"
-	"iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/translate"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 )
 
 // ResourceExpressionCacheKey is the key for a policy expression, signature is unique

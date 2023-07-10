@@ -16,7 +16,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/cache"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // it's a goroutine

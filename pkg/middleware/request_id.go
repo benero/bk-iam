@@ -14,7 +14,7 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // RequestID add the request_id for each api request

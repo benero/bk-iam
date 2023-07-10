@@ -12,7 +12,7 @@ package group
 
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock
 
-import "iam/pkg/service/types"
+import "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 type GroupAuthTypeRetriever interface {
 	Retrieve(groupPKs []int64) (groupAuthTypes []types.GroupAuthType, err error)

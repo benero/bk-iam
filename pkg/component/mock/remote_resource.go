@@ -5,7 +5,7 @@
 package mock
 
 import (
-	component "iam/pkg/component"
+	component "github.com/TencentBlueKing/bk-iam/pkg/component"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

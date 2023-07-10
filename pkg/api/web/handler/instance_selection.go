@@ -14,8 +14,8 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/service"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // ListInstanceSelection 查询系统的所有实例视图

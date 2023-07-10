@@ -23,12 +23,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/abac/prp/common"
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 var _ = Describe("Memory", func() {

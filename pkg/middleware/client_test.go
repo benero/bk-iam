@@ -20,9 +20,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/config"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 func TestClientAuthMiddleware(t *testing.T) {

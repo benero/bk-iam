@@ -11,7 +11,7 @@
 package handler
 
 import (
-	svctypes "iam/pkg/service/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 	"github.com/fatih/structs"
 )

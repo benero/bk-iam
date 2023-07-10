@@ -16,14 +16,14 @@ import (
 	"github.com/jmoiron/sqlx"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/prp/expression"
-	"iam/pkg/abac/prp/group"
-	"iam/pkg/abac/prp/policy"
-	"iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/database"
-	svctypes "iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/expression"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/group"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 func (c *policyController) AlterGroupPolicies(

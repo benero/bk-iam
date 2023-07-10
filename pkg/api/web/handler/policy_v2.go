@@ -4,10 +4,10 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/abac/pap"
-	"iam/pkg/abac/types"
-	svctypes "iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // AlterPoliciesV2 godoc

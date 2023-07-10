@@ -14,7 +14,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
 )
 
 var _ = Describe("Or", func() {

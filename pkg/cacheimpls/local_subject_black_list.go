@@ -19,7 +19,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 /*

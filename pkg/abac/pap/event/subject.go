@@ -17,9 +17,9 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/service/types"
-	"iam/pkg/task"
-	"iam/pkg/task/producer"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/task"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/producer"
 )
 
 type SubjectEventProducer interface {

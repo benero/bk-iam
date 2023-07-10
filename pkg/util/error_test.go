@@ -3,7 +3,7 @@ package util_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 var _ = Describe("Error", func() {

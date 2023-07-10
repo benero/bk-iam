@@ -16,7 +16,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"iam/pkg/version"
+	"github.com/TencentBlueKing/bk-iam/pkg/version"
 )
 
 // versionCmd represents the version command

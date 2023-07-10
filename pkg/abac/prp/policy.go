@@ -21,15 +21,15 @@ import (
 	"github.com/TencentBlueKing/gopkg/stringx"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/prp/expression"
-	"iam/pkg/abac/prp/policy"
-	"iam/pkg/abac/prp/rbac"
-	"iam/pkg/abac/prp/temporary"
-	"iam/pkg/abac/types"
-	"iam/pkg/logging/debug"
-	"iam/pkg/service"
-	svctypes "iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/expression"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/rbac"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/temporary"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // PRP ...

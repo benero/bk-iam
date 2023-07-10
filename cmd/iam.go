@@ -27,12 +27,12 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 
 	// init debug entry pool
-	_ "iam/pkg/logging/debug"
+	_ "github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
 
 	// init the pdp
-	_ "iam/pkg/abac/pdp/evalctx"
+	_ "github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
 
-	"iam/pkg/server"
+	"github.com/TencentBlueKing/bk-iam/pkg/server"
 )
 
 // cmd for iam

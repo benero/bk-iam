@@ -11,7 +11,7 @@
 package handler
 
 import (
-	"iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
 )
 
 // Query for

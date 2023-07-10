@@ -18,11 +18,11 @@ import (
 	"github.com/adjust/rmq/v4"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/config"
-	"iam/pkg/logging"
-	"iam/pkg/task/handler"
-	"iam/pkg/task/stats"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/stats"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const (

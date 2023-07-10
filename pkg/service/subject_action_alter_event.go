@@ -17,8 +17,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	jsoniter "github.com/json-iterator/go"
 
-	"iam/pkg/database/dao"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // SubjectActionAlterEventSVC ...

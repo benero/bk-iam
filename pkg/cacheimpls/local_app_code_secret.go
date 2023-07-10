@@ -17,8 +17,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/component"
-	"iam/pkg/database/edao"
+	"github.com/TencentBlueKing/bk-iam/pkg/component"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/edao"
 )
 
 // VerifyAppCodeAppSecret ...

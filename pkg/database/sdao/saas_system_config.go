@@ -15,7 +15,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock

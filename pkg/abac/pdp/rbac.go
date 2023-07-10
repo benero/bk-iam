@@ -18,11 +18,11 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac"
-	"iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/logging/debug"
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 func rbacEval(

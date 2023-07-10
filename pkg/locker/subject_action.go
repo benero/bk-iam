@@ -17,7 +17,7 @@ import (
 
 	"github.com/bsm/redislock"
 
-	"iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
 )
 
 type SubjectDistributedActionLocker struct {

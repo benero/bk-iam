@@ -18,13 +18,13 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/pdp/evalctx"
-	"iam/pkg/abac/pdp/evaluation"
-	"iam/pkg/abac/pdp/translate"
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/logging/debug"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evaluation"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/translate"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
 )
 
 /*

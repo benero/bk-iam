@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 var _ = Describe("GroupResourcePolicyManager", func() {

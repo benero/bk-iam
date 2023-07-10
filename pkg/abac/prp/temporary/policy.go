@@ -41,10 +41,10 @@ import (
 	"github.com/TencentBlueKing/gopkg/conv"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const (

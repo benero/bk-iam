@@ -13,9 +13,9 @@ package service
 import (
 	"errors"
 
-	"iam/pkg/database/dao"
-	"iam/pkg/database/dao/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"

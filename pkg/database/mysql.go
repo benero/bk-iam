@@ -18,7 +18,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 )
 
 // ! set the default https://making.pusher.com/production-ready-connection-pooling-in-go/

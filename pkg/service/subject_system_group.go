@@ -20,9 +20,9 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/database"
-	"iam/pkg/database/dao"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // ErrNoPolicies ...

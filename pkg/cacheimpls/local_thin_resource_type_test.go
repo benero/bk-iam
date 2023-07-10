@@ -19,7 +19,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/cache/memory"
 	"github.com/stretchr/testify/assert"
 
-	svctypes "iam/pkg/service/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 func TestResourceTypePKCacheKey_Key(t *testing.T) {

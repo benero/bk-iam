@@ -18,9 +18,9 @@ import (
 	gocache "github.com/wklken/go-cache"
 	"go.uber.org/multierr"
 
-	"iam/pkg/abac/prp/common"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const (

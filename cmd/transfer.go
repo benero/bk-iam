@@ -20,8 +20,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"iam/pkg/server"
-	"iam/pkg/task"
+	"github.com/TencentBlueKing/bk-iam/pkg/server"
+	"github.com/TencentBlueKing/bk-iam/pkg/task"
 )
 
 func init() {

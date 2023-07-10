@@ -13,7 +13,7 @@ package main
 import (
 	_ "go.uber.org/automaxprocs"
 
-	"iam/cmd"
+	"github.com/TencentBlueKing/bk-iam/cmd"
 )
 
 // @title IAM API

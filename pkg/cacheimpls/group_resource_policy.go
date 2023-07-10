@@ -20,8 +20,8 @@ import (
 	"github.com/TencentBlueKing/gopkg/conv"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
 )
 
 const RandExpireSeconds = 60

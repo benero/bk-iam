@@ -18,9 +18,9 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/prp"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // PolicyList godoc

@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/config"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/TencentBlueKing/gopkg/cache"
 	"github.com/TencentBlueKing/gopkg/cache/memory"

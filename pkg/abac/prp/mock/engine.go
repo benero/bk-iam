@@ -5,7 +5,7 @@
 package mock
 
 import (
-	prp "iam/pkg/abac/prp"
+	prp "github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

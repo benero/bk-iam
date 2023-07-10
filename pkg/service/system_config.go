@@ -20,7 +20,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	jsoniter "github.com/json-iterator/go"
 
-	"iam/pkg/database/sdao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/sdao"
 )
 
 // SystemConfigSVC ...

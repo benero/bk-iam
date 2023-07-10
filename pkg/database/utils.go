@@ -24,7 +24,7 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
 )
 
 const (

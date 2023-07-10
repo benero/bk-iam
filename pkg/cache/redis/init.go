@@ -20,7 +20,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 )
 
 // ModeStandalone ...

@@ -18,14 +18,14 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/prp/rbac/convert"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/config"
-	"iam/pkg/database"
-	"iam/pkg/locker"
-	"iam/pkg/logging"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/rbac/convert"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/locker"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const handlerLayer = "handler"

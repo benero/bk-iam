@@ -18,8 +18,8 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/logging"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // only record `change` method audit log

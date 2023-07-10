@@ -5,7 +5,7 @@
 package mock
 
 import (
-	types "iam/pkg/service/types"
+	types "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 	reflect "reflect"
 
 	set "github.com/TencentBlueKing/gopkg/collection/set"

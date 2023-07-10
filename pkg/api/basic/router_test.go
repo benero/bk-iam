@@ -13,7 +13,7 @@ package basic
 import (
 	"testing"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

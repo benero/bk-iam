@@ -16,8 +16,8 @@ import (
 	"github.com/adjust/rmq/v4"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/metric"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/metric"
 )
 
 const (

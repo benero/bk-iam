@@ -16,10 +16,10 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/pdp/translate"
-	"iam/pkg/abac/types"
-	"iam/pkg/cacheimpls"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/translate"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 /*

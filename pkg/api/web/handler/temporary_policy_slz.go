@@ -10,7 +10,7 @@
 
 package handler
 
-import "iam/pkg/api/common"
+import "github.com/TencentBlueKing/bk-iam/pkg/api/common"
 
 // 临时权限 request body
 type temporaryPoliciesSerializer struct {

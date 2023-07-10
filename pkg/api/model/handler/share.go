@@ -13,7 +13,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // ShareSystemInfoQuery godoc

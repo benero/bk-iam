@@ -13,8 +13,8 @@ package handler
 import (
 	"fmt"
 
-	"iam/pkg/abac/prp"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // -- listPolicy

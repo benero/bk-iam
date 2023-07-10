@@ -20,7 +20,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 )
 
 var loggerInitOnce sync.Once

@@ -15,7 +15,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/jmoiron/sqlx"
 
-	"iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
 )
 
 // SubjectBlackListSVC ...

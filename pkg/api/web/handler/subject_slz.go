@@ -11,8 +11,8 @@
 package handler
 
 import (
-	"iam/pkg/api/common"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const superSystemID = "SUPER"

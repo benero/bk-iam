@@ -15,8 +15,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/task/consumer"
-	"iam/pkg/task/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/consumer"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/handler"
 )
 
 // Worker ...

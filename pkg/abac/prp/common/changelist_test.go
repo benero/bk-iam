@@ -20,9 +20,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/abac/prp/common"
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 var _ = Describe("Changelist", func() {

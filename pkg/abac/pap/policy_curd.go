@@ -16,11 +16,11 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/prp/expression"
-	"iam/pkg/abac/prp/policy"
-	"iam/pkg/abac/prp/temporary"
-	"iam/pkg/abac/types"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/expression"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/temporary"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // NOTE: **important** / **重要**

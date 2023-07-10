@@ -13,7 +13,7 @@ package dao
 import (
 	"testing"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
 	"github.com/jmoiron/sqlx"

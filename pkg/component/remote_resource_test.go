@@ -13,7 +13,7 @@ package component
 import (
 	"testing"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/stretchr/testify/assert"
 )

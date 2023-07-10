@@ -17,15 +17,15 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/pdp/condition"
-	"iam/pkg/abac/pdp/evalctx"
-	"iam/pkg/abac/pdp/evaluation"
-	"iam/pkg/abac/pip"
-	"iam/pkg/abac/prp"
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
-	"iam/pkg/logging/debug"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evaluation"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pip"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging/debug"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // PDPHelper ...

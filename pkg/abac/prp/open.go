@@ -19,10 +19,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/pdp/translate"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/translate"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 type OpenPolicy struct {

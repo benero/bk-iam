@@ -13,7 +13,7 @@ package common
 import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 
-	"iam/pkg/abac/pip"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pip"
 )
 
 // GetActionResourceTypeSet get resource type set for translate expression

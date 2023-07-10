@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"strings"
 
-	"iam/pkg/abac/pdp/condition/operator"
-	"iam/pkg/abac/pdp/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
 )
 
 // OrCondition 逻辑OR

@@ -19,14 +19,14 @@ import (
 	"github.com/adjust/rmq/v4"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/config"
-	"iam/pkg/logging"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
-	"iam/pkg/task/producer"
-	"iam/pkg/task/stats"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/producer"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/stats"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const checkerLayer = "Checker"

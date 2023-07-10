@@ -16,9 +16,9 @@ import (
 	rds "github.com/go-redis/redis/v8"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const (

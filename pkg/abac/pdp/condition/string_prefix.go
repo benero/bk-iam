@@ -13,9 +13,9 @@ package condition
 import (
 	"strings"
 
-	"iam/pkg/abac/pdp/condition/operator"
-	"iam/pkg/abac/pdp/types"
-	abacTypes "iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition/operator"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/types"
+	abacTypes "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 )
 
 // StringPrefixCondition 字符串前缀匹配

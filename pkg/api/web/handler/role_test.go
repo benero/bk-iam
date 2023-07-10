@@ -17,9 +17,9 @@ import (
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/golang/mock/gomock"
 
-	"iam/pkg/abac/pap"
-	"iam/pkg/abac/pap/mock"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 func TestAddRoleSubject(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
 
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/golang/mock/gomock"

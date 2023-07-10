@@ -18,7 +18,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/conv"
 	"github.com/gin-gonic/gin/binding"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // Some Tag Validators: https://godoc.org/gopkg.in/go-playground/validator.v9#hdr-Baked_In_Validators_and_Tags

@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/component"
-	mock2 "iam/pkg/component/mock"
-	"iam/pkg/database/edao"
-	"iam/pkg/database/edao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/component"
+	mock2 "github.com/TencentBlueKing/bk-iam/pkg/component/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/edao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/edao/mock"
 )
 
 var _ = Describe("LocalAppCodeSecret", func() {

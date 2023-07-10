@@ -23,7 +23,7 @@ import (
 	"github.com/vmihailenco/msgpack/v5"
 	"golang.org/x/sync/singleflight"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const (

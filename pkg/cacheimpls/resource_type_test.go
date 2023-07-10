@@ -18,10 +18,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 func TestResourceTypeCacheKey_Key(t *testing.T) {

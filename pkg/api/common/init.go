@@ -13,7 +13,7 @@ package common
 import (
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 )
 
 const (

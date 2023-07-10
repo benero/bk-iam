@@ -1,4 +1,4 @@
-module iam
+module github.com/TencentBlueKing/bk-iam
 
 go 1.18
 

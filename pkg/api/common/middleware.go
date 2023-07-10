@@ -16,8 +16,8 @@ import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // SystemExists via system_id in path

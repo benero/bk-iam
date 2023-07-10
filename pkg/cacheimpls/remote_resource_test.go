@@ -19,10 +19,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/cache/redis"
-	"iam/pkg/component"
-	"iam/pkg/component/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/component"
+	"github.com/TencentBlueKing/bk-iam/pkg/component/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 func TestRemoteResourceCacheKey_Key(t *testing.T) {

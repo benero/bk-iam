@@ -14,7 +14,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	svctypes "iam/pkg/service/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 var _ = Describe("ActionCheck", func() {

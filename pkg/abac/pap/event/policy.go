@@ -17,8 +17,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/task"
-	"iam/pkg/task/producer"
+	"github.com/TencentBlueKing/bk-iam/pkg/task"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/producer"
 )
 
 const PapEvent = "PapEvent"

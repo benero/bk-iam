@@ -19,7 +19,7 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/TencentBlueKing/gopkg/stringx"
 
-	"iam/pkg/component"
+	"github.com/TencentBlueKing/bk-iam/pkg/component"
 )
 
 // RemoteResourceListCacheKey ...

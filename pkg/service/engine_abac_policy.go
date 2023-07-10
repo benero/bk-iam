@@ -15,8 +15,8 @@ package service
 import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/database/dao"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const EnginePolicySVC = "EnginePolicySVC"

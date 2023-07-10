@@ -18,8 +18,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/metric"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/metric"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // Metrics ...

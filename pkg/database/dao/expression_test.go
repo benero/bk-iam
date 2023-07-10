@@ -17,7 +17,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 func Test_expressionManager_ListAuthByPKs(t *testing.T) {

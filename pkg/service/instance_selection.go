@@ -16,9 +16,9 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	jsoniter "github.com/json-iterator/go"
 
-	"iam/pkg/database"
-	"iam/pkg/database/sdao"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/sdao"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // InstanceSelectionSVC ...

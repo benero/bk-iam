@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"testing"
 
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/steinfletcher/apitest"
 	"github.com/stretchr/testify/assert"

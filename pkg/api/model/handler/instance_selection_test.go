@@ -18,9 +18,9 @@ import (
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"
 
-	"iam/pkg/service"
-	"iam/pkg/service/mock"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 var _ = Describe("InstanceSelection", func() {

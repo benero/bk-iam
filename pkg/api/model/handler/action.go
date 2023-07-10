@@ -17,10 +17,10 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/service"
-	svctypes "iam/pkg/service/types"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 // BatchCreateActions godoc

@@ -13,7 +13,7 @@ package engine
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/engine/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/engine/handler"
 )
 
 // in-out policy `id` equals to `pk` in iam backend, so do the convert in serializer

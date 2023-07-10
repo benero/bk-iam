@@ -5,7 +5,7 @@
 package mock
 
 import (
-	pap "iam/pkg/abac/pap"
+	pap "github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

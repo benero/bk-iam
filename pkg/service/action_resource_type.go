@@ -13,7 +13,7 @@ package service
 import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // ListThinActionResourceTypes 获取操作关联的资源类型

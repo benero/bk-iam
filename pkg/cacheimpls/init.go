@@ -20,8 +20,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/cache/cleaner"
-	"iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/cleaner"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
 )
 
 // CacheLayer ...

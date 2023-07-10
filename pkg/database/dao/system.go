@@ -11,7 +11,7 @@
 package dao
 
 import (
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 
 	"github.com/jmoiron/sqlx"
 )

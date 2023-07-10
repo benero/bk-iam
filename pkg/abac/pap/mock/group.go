@@ -5,8 +5,8 @@
 package mock
 
 import (
-	pap "iam/pkg/abac/pap"
-	types "iam/pkg/abac/types"
+	pap "github.com/TencentBlueKing/bk-iam/pkg/abac/pap"
+	types "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

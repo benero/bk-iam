@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	gocache "github.com/wklken/go-cache"
 
-	"iam/pkg/abac/pdp/condition"
-	"iam/pkg/abac/pdp/evalctx"
-	"iam/pkg/abac/types"
-	"iam/pkg/abac/types/request"
-	"iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/condition"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pdp/evalctx"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types/request"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
 )
 
 var _ = Describe("Evaluation", func() {

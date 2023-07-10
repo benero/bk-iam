@@ -15,8 +15,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/task/handler"
-	"iam/pkg/task/stats"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/task/stats"
 )
 
 type h struct{}

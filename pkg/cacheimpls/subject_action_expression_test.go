@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
 
 	"github.com/stretchr/testify/assert"
 )

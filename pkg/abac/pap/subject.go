@@ -14,12 +14,12 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	log "github.com/sirupsen/logrus"
 
-	"iam/pkg/abac/pap/event"
-	pl "iam/pkg/abac/prp/policy"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/database"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/pap/event"
+	pl "github.com/TencentBlueKing/bk-iam/pkg/abac/prp/policy"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 //go:generate mockgen -source=$GOFILE -destination=./mock/$GOFILE -package=mock

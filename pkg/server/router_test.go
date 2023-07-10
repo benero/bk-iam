@@ -13,7 +13,7 @@ package server
 import (
 	"testing"
 
-	"iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
 
 	"github.com/stretchr/testify/assert"
 )

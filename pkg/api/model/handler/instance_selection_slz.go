@@ -15,7 +15,7 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/collection/set"
 
-	"iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
 )
 
 type instanceSelectionSerializer struct {

@@ -5,7 +5,7 @@
 package mock
 
 import (
-	types "iam/pkg/abac/types"
+	types "github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

@@ -17,16 +17,16 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"iam/pkg/api/common"
-	"iam/pkg/cache/redis"
-	"iam/pkg/cacheimpls"
-	"iam/pkg/component"
-	"iam/pkg/config"
-	"iam/pkg/database"
-	"iam/pkg/logging"
-	"iam/pkg/metric"
-	"iam/pkg/task"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/cache/redis"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/component"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/metric"
+	"github.com/TencentBlueKing/bk-iam/pkg/task"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 var globalConfig *config.Config

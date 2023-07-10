@@ -15,8 +15,8 @@ import (
 
 	"github.com/gin-gonic/gin/binding"
 
-	"iam/pkg/config"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/config"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const (

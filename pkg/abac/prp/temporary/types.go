@@ -10,7 +10,7 @@
 
 package temporary
 
-import "iam/pkg/service/types"
+import "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 
 // PolicyRetriever ...
 type PolicyRetriever interface {

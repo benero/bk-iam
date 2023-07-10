@@ -13,8 +13,8 @@ package policy
 import (
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/api/common"
-	"iam/pkg/api/policy/handler"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/common"
+	"github.com/TencentBlueKing/bk-iam/pkg/api/policy/handler"
 )
 
 // Register the urls: /api/v1/policy

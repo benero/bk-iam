@@ -13,7 +13,7 @@ package policy
 import (
 	"go.uber.org/multierr"
 
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // GetPoliciesFromCache will retrieve policies from cache, the order is memory->redis->database

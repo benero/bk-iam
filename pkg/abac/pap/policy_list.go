@@ -16,8 +16,8 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/types"
-	svctypes "iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
+	svctypes "github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // ListSaaSBySubjectSystemTemplate 根据system和subject查询相关的policy的列表

@@ -13,7 +13,7 @@ package expression
 import (
 	"go.uber.org/multierr"
 
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 // TODO: 目前不支持debug, 将会导致不知道 memory - redis - database的所有行为

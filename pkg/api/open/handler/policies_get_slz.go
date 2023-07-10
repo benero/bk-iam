@@ -11,7 +11,7 @@
 package handler
 
 import (
-	"iam/pkg/abac/prp"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp"
 )
 
 type policyGetUriSerializer struct {

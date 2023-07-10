@@ -13,8 +13,8 @@ package group
 import (
 	"github.com/TencentBlueKing/gopkg/collection/set"
 
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 type groupAuthTypeDatabaseRetriever struct {

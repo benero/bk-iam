@@ -17,7 +17,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 func Test_subjectRelationManager_GetCount(t *testing.T) {

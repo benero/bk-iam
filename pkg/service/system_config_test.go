@@ -15,8 +15,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database/sdao"
-	"iam/pkg/database/sdao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/sdao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/sdao/mock"
 )
 
 var _ = Describe("SystemConfigService", func() {

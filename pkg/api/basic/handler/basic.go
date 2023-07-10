@@ -16,7 +16,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"iam/pkg/version"
+	"github.com/TencentBlueKing/bk-iam/pkg/version"
 )
 
 // Ping godoc

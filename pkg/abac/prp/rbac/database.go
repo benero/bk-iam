@@ -15,9 +15,9 @@ import (
 
 	"github.com/TencentBlueKing/gopkg/errorx"
 
-	"iam/pkg/abac/prp/rbac/convert"
-	"iam/pkg/service"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/prp/rbac/convert"
+	"github.com/TencentBlueKing/bk-iam/pkg/service"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 const rbacDatabaseLayer = "rbacDatabaseLayer"

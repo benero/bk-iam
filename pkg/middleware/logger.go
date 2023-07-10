@@ -19,8 +19,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"iam/pkg/logging"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 type bodyLogWriter struct {

@@ -19,10 +19,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/database"
-	"iam/pkg/database/dao"
-	"iam/pkg/database/dao/mock"
-	"iam/pkg/service/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao"
+	"github.com/TencentBlueKing/bk-iam/pkg/database/dao/mock"
+	"github.com/TencentBlueKing/bk-iam/pkg/service/types"
 )
 
 var _ = Describe("PolicyService", func() {

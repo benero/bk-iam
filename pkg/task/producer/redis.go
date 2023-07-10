@@ -14,8 +14,8 @@ import (
 	"github.com/TencentBlueKing/gopkg/errorx"
 	"github.com/adjust/rmq/v4"
 
-	"iam/pkg/logging"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/logging"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 )
 
 const producerLayer = "producer"

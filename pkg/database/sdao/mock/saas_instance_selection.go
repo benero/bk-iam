@@ -5,7 +5,7 @@
 package mock
 
 import (
-	sdao "iam/pkg/database/sdao"
+	sdao "github.com/TencentBlueKing/bk-iam/pkg/database/sdao"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

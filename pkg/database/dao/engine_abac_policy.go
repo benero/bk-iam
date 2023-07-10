@@ -19,7 +19,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"iam/pkg/database"
+	"github.com/TencentBlueKing/bk-iam/pkg/database"
 )
 
 // EngineAbacPolicy ...

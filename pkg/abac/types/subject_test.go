@@ -14,7 +14,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/assert"
 
-	"iam/pkg/abac/types"
+	"github.com/TencentBlueKing/bk-iam/pkg/abac/types"
 )
 
 var _ = Describe("subject", func() {

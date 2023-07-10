@@ -13,8 +13,8 @@ package handler
 import (
 	"fmt"
 
-	"iam/pkg/cacheimpls"
-	"iam/pkg/util"
+	"github.com/TencentBlueKing/bk-iam/pkg/cacheimpls"
+	"github.com/TencentBlueKing/bk-iam/pkg/util"
 
 	"github.com/gin-gonic/gin"
 )
